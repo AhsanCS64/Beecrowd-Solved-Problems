@@ -1,29 +1,37 @@
-# Beecrowd Code Downloader
 
-Export your accepted Beecrowd solutions to your computer. The downloader keeps one solution per problem and programming language, starting with the newest accepted submission. It skips existing files when you rerun it. If the newest submission's source is unavailable, it tries older accepted submissions for that same problem and language.
+# Beecrowd Problem Solutions
 
-## Run on Windows
+A collection of my solved programming problems from **beecrowd Online Judge**, documenting my practice in competitive programming, algorithm design, data structures, and problem-solving.
 
-Install Python 3.10 or later and Google Chrome. Open PowerShell in this project folder and run:
+## Beecrowd Profile
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe main.py
-```
+- **Username:** AhsanHabib.NCS-12
+- **Profile:** [View My beecrowd Profile](https://judge.beecrowd.com/en/profile/790377)
 
-Sign in to Beecrowd in the Chrome window that opens. The export starts once sign-in succeeds. Selenium manages ChromeDriver and may need internet access on the first run. On macOS or Linux, use `.venv/bin/python` after creating the virtual environment.
+## Repository Contents
 
-## Files
+This repository contains my submitted solutions to beecrowd programming challenges, organized by problem number and programming language.
 
-By default, solutions are saved under `URI-Source-Codes`, next to `main.py`. For example, a C++ solution for problem 1001 is saved as `URI-Source-Codes/C++/1001.cpp`. Unknown languages are saved as text under `Other`.
+The solutions cover topics including:
+- Basic Programming and Mathematics
+- Data Structures and Algorithms
+- Sorting and Searching
+- Graph Algorithms
+- Dynamic Programming
+- Computational Problem-Solving
 
-To choose a different folder:
+## Purpose
 
-```powershell
-.\.venv\Scripts\python.exe main.py --output "K:\Beecrowd\My Solutions"
-```
+To maintain an organized archive of my programming solutions, track my problem-solving journey, and demonstrate my algorithmic thinking and programming proficiency.
 
-Rerun the same command after an interrupted export or any reported errors. You can use the resulting folder as your local Git repository.
+## Author
 
-Original downloader by Luan Simões (Snizi).
+**H. M. Ahsan Habib Kushal**
+
+- [GitHub](https://github.com/AhsanCS64)
+- [Portfolio](https://ahsanhabibkushal.vercel.app/)
+- [beecrowd](https://judge.beecrowd.com/en/profile/790377)
+
+---
+
+*Solutions are provided for educational and reference purposes.*
